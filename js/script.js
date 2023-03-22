@@ -50,7 +50,7 @@ for (let i = 0; i < membersTeam.length; i++) {
     const member = membersTeam[i];
     col += `
     <div class="col-3" style="border-radius: 0px 25px; background-color: var(--secondary-color);">
-    <img src="img/${member.image}" class="mt-2" style="border-radius: 0px 25px;" alt="image">
+    <img src="img/${member.image}" class="mt-4" style="border-radius: 0px 25px;" alt="image">
     <div class="text-center my-4" style="font-weight: bold; background-color: var(--primary-color); border-radius: 25px 25px;">
         <h6>${member.name} ${member.surname}</h6>
         <span>${member.role}</span>
