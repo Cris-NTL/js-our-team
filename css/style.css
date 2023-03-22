@@ -9,7 +9,16 @@ img {
     max-width: 100%;
 }
 
+/* utility */
+:root {
+    --default-color: #F6F1F1;
+    --primary-color: #1cdbbb;
+    --secondary-color: #146b946d;
+}
+
 /* common rules */
 #wrapper {
     font-family: 'Roboto', sans-serif;
+    background-color: var(--primary-color);
+    
 }
